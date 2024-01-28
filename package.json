@@ -1,0 +1,8 @@
+{
+  "name": "wellyton-xs.github.io",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "git@github.com:wellyton-xs/wellyton-xs.github.io.git",
+  "author": "wellyton-xs <wellyton.offcer@gmail.com>",
+  "license": "MIT"
+}
