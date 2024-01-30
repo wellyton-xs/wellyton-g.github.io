@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: medium;
+    font-weight: 600
+}
+
+.cabeçalho{
+    background-color: black;
+    padding: 9px;
+}
+
+.logo{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder
+}
