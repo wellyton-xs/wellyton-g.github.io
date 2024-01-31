@@ -5,26 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aprendendo git</title>
     <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/text-colors.css">
 </head>
 <body>
     <main>
-        <header class="cabeçalho">
+        <header class="header">
             <a href="index.html" class="logo">aprendendo git</a>
         </header>
 
-        <nav>
-            <p>páginas:</p>
-            <a href="pages/curso.html">teste curso</a> <br>
-            <a href="pages/welly.html">welly</a>
-        </nav>
-        
-        <article>conteúdo de um artigo externo</article>
+        <div class="test">
+            <div class="nav-container">
+                <nav class="nav-bar">
+                    <p class="nav-item">páginas:</p>
+                    <a href="pages/curso.html">teste curso</a> <br>
+                    <a href="pages/welly.html">welly</a>
+                </nav>
+            </div>
+            <div class="content">
+                <p>
+                    <strong class="black">comandos básicos:</strong>
+                    <br>
+                    git --help: obtém ajuda com vários exemplos de comandos
+                    <br>
+                    git status: obtém o status de modificações feitas.
+                    <br>
+                    git add: adiciona arquivos ao stage, preparando-os para o commit
+                    <br>
+                    git commit -m: cria um commit com os arquivos preparados (em stage)
+                    <br>
+                    git push: envia o commit para um repositório remoto
+                    <br>
+                    git pull: sincroniza alterações feitas no repositório remoto para que o nosso esteja atualizado.
+                    <br>
+                    git branch: mostra todas as branch's existentes.
+                    <br>
+                    git switch: cria ou seleciona uma branch.
+                    <br>
+                    git merge &lt;nome_da_branch&gt;: soma as alterações de uma branch
+                </p>
+            </div>
+        </div>
 
-        <aside>
-            <p>conteúdo que faz referência ao assunto que está sendo explicado</p>
-        </aside>
-
-        <footer>RODAPÉ</footer>
+        <footer>
+            <p class="light">obrigado por visitar a nossa página &lt;3</p>
+        </footer>
     </main>
 </body>
 </html>

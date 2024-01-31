@@ -3,17 +3,47 @@
     padding: 0;
     box-sizing: border-box;
     font-size: medium;
-    font-weight: 600
+    font-weight: 600;
+    color: aliceblue;
 }
 
-.cabeçalho{
+.test{
+    display: flex;
+}
+
+.header{
     background-color: black;
     padding: 9px;
 }
 
 .logo{
-    color: aliceblue;
     text-decoration: none;
     font-size: larger;
     font-weight: bolder
 }
+
+.nav-container{
+    height: 90vh;
+    background-color: darkslategrey;
+}
+
+.nav-bar{
+    display: block;
+    width: max-content;
+    padding: 10px;
+}
+
+.nav-item{
+    background: black 1px solid;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+}
+
+p{color:black;}
